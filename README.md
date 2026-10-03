@@ -69,5 +69,5 @@ npx quartz build --serve  # 本地预览（http://localhost:8080）
 
 ## 许可
 
-- **Quartz 框架代码**：遵循 [MIT License](LICENSE.txt)（Copyright © 2021 jackyzha0）。
-- **笔记内容**：为个人复习整理，版权归作者所有，转载请注明出处。
+本项目统一采用 [MIT License](LICENSE.txt)：既包括 Quartz 框架代码（Copyright © 2021
+jackyzha0），也包括本仓库的笔记内容。
