@@ -9,6 +9,8 @@ title: Tomato 的考研数学笔记
 > **Info**
 >
 > GitHub 仓库：<https://github.com/5itomato/note>
+>
+> ⚠️ **本笔记由 AI 辅助编写**。内容经人工整理与校订，但仍可能存在疏漏或错误，**请勿直接作为唯一复习依据**，发现错误欢迎提 [Issue](https://github.com/5itomato/note/issues)。
 
 本笔记已完成初步更新，如果你有任何疑问，欢迎发布 [Issue](https://github.com/5itomato/note/issues)。
 
