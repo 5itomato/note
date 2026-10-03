@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: zh-CN
-  baseUrl: 5itomato.github.io/note
+  baseUrl: note.itmt.io
   ignorePatterns:
     - private
     - templates
@@ -119,11 +119,11 @@ plugins:
     enabled: true
   - source: "@quartz-community/og-image"
     enabled: true
-  # Disabled: on a GitHub Pages *project* site the plugin would emit a CNAME
-  # containing only the hostname (5itomato.github.io), which hijacks the site
-  # root and breaks the /note/ base path. Enable only with a real custom domain.
+  # Enabled: the site is served on the custom domain note.itmt.io, so Quartz
+  # emits a CNAME file (note.itmt.io) that GitHub Pages needs to keep serving
+  # the custom domain across every deployment.
   - source: "@quartz-community/cname"
-    enabled: false
+    enabled: true
   - source: "@quartz-community/canvas-page"
     enabled: true
   - source: "@quartz-community/content-page"
