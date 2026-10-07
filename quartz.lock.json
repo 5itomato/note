@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "plugins": {
+    "cname": {
+      "source": "github:quartz-community/cname",
+      "resolved": "https://github.com/quartz-community/cname.git",
+      "commit": "2a49296931d7f5e31f7663dff2c40a8e82c8651a",
+      "installedAt": "2026-10-03T15:51:18.504Z"
+    }
+  }
+}
