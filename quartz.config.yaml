@@ -84,6 +84,13 @@ plugins:
     enabled: true
     options:
       renderEngine: katex
+      # Notes put Chinese inside \text{} in math mode, e.g. f(x)\text{ 在 }x_0
+      # \text{ 处连续}. KaTeX renders this correctly (mord cjk_fallback), but
+      # strict mode emits one unicodeTextInMathMode warning per character, which
+      # buries real build errors under hundreds of lines of noise.
+      # Values accepted: false | true | "ignore" | "warn" | "error".
+      katexOptions:
+        strict: false
     order: 80
   - source: "@quartz-community/citations"
     enabled: false
